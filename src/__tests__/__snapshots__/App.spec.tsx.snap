@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The App component when it renders should match snapshot 1`] = `
+<div>
+  <div
+    class="sc-bdvvtL cydklE"
+  >
+    <header
+      class="sc-gsDKAQ"
+    >
+      <h1>
+        Library
+      </h1>
+    </header>
+    <div
+      class="sc-dkPtRN hpEdkZ"
+    />
+  </div>
+</div>
+`;

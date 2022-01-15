@@ -1,5 +1,5 @@
 import React from 'react'
-import { App } from './App'
+import { App } from '../App'
 import { render, getByText } from '@testing-library/react'
 
 describe('The App component', () => {
@@ -7,15 +7,15 @@ describe('The App component', () => {
     let container: HTMLElement
 
     beforeEach(() => {
-      ({ container } = render(<App />))
-    });
-    
+      ;({ container } = render(<App />))
+    })
+
     it('should match snapshot', () => {
       expect(container).toMatchSnapshot()
-    });
+    })
 
     it('should contain expected text', () => {
-      const mainText = getByText(container, 'Hello World')
+      const mainText = getByText(container, 'Library')
 
       expect(mainText).toBeInTheDocument()
     })

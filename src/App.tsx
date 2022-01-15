@@ -1,3 +1,4 @@
 import React from 'react'
+import Library from './components/Pages/Library'
 
-export const App = () => <div> Hello World </div>
+export const App = () => <Library />
