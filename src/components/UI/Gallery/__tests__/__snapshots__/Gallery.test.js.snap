@@ -4,43 +4,9 @@ exports[`Gallery should render correctly 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
-    <div>
-      <div
-        class="sc-bdvvtL"
-      >
-        <div
-          class="infinite-scroll-component__outerdiv"
-        >
-          <div
-            class="infinite-scroll-component "
-            style="height: auto; overflow: auto;"
-          >
-            <h4>
-              Loading...
-            </h4>
-          </div>
-        </div>
-      </div>
-    </div>
+    <div />
   </body>,
-  "container": <div>
-    <div
-      class="sc-bdvvtL"
-    >
-      <div
-        class="infinite-scroll-component__outerdiv"
-      >
-        <div
-          class="infinite-scroll-component "
-          style="height: auto; overflow: auto;"
-        >
-          <h4>
-            Loading...
-          </h4>
-        </div>
-      </div>
-    </div>
-  </div>,
+  "container": <div />,
   "debug": [Function],
   "findAllByAltText": [Function],
   "findAllByDisplayValue": [Function],
