@@ -11,6 +11,10 @@ export const Overlay = styled.div`
 `
 
 export const Img = styled.img`
-  width: 50vw;
-  max-height: 80%;
+  width: 60vw;
+
+  @media only screen and (min-width: 700px) {
+    width: 50vw;
+    max-height: 80%;
+  }
 `

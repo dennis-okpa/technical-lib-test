@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The Library component should match snapshot 1`] = `
+<div>
+  <div
+    class="sc-bdvvtL cydklE"
+  >
+    <header
+      class="sc-gsDKAQ"
+    >
+      <h1>
+        Library
+      </h1>
+    </header>
+    <div
+      class="sc-dkPtRN hpEdkZ"
+    />
+    <div
+      class="sc-hKwDye"
+    >
+      <div
+        class="infinite-scroll-component__outerdiv"
+      >
+        <div
+          class="infinite-scroll-component "
+          style="height: auto; overflow: auto;"
+        >
+          <h4>
+            Loading...
+          </h4>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
