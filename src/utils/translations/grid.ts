@@ -1,4 +1,4 @@
-type Item = { [key: string]: string }
+export type Item = { [key: string]: string }
 
 const ROW_SIZE = 6
 
