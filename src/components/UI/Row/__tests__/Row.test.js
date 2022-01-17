@@ -5,7 +5,7 @@ import { mockLibraryData } from '../../../../utils/mock'
 
 describe('Row', () => {
   it('should render correctly', () => {
-    let container = render(<Row data={[mockLibraryData]} />)
+    const { container } = render(<Row data={[mockLibraryData]} />)
     expect(container).toMatchSnapshot()
   })
 })

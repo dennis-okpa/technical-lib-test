@@ -1,9 +1,10 @@
-import Gallery from '../index'
+import Modal from '../index'
 import React from 'react'
 import { render } from '@testing-library/react'
-describe('Gallery', () => {
+
+describe('Modal', () => {
   it('should render correctly', () => {
-    const { container } = render(<Gallery />)
+    const { container } = render(<Modal />)
     expect(container).toMatchSnapshot()
   })
 })

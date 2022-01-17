@@ -7,6 +7,7 @@ export const Container = styled.div`
   border-radius: 8px;
   margin-right: 16px;
   margin-bottom: 24px;
+  cursor: pointer;
 `
 
 export const Thumbnail = styled.img`

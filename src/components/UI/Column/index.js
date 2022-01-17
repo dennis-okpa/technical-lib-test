@@ -1,6 +1,7 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import heartIcon from '../../../assets/like.png'
 import { getDuration } from '../../../utils/translations/duration'
+import { ViewerContext } from '../../Pages/Library/index'
 import {
   Container,
   Thumbnail,
@@ -12,12 +13,18 @@ import {
 } from './styles'
 
 function Column({ data }) {
-  const { thumbnailUrl, likes, firstName, lastName, duration } = data
+  const { thumbnailUrl, likes, firstName, lastName, duration, imageUrl } = data
 
   const time = getDuration(duration)
 
+  const setImage = useContext(ViewerContext)
+
   return (
-    <Container>
+    <Container
+      onClick={() => {
+        setImage(imageUrl)
+      }}
+    >
       <Thumbnail src={thumbnailUrl} alt="thumbnail" />
 
       <Duration>{time}</Duration>

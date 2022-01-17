@@ -19,7 +19,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "type-check": "tsc --noEmit",
-    "coverage": "npm run test --coverage --watchAll=false",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {

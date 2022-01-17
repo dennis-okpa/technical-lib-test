@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal should render correctly 1`] = `
+<div>
+  <div
+    class="sc-bdvvtL gxYpIB"
+  >
+    <img
+      alt="large view"
+      class="sc-gsDKAQ DzmNP"
+    />
+  </div>
+</div>
+`;
